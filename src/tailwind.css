@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.filter {
+    filter: grayscale(1);
+    transition: all ease-in-out 1s;
+}
+
+.filter:hover {
+    filter: grayscale(0)
+}
