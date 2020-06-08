@@ -4,24 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio</title>
+    <title>Home|Sohel.gihube.io</title>
     <link rel="stylesheet" href="./dist/app.css">
 </head>
 
 <body class="bg-gray-800">
-    <header class="container max-w-full mx-auto px-4 flex justify-center md:justify-end">
-        <div class="nav flex space-x-12 text-white mt-5 mr-10 mt-10">
-            <a href="#" class="text-white font-hairline font-normal text-xl border-b pb-2">Home</a>
-            <a href="#" class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Works</a>
-            <a href="#" class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Download CV</a>
-            <a href="#" class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Blog</a>
+    <header class="w-full mx-auto px-4 flex justify-center md:justify-end">
+        <div class="w-full flex items-center justify-end">
+            <div class="nav hidden sm:flex space-x-12 text-white mt-5 mr-10 mt-10">
+                <a href="/index.html" class="text-white font-hairline font-normal text-xl border-b pb-2">Home</a>
+                <a href="/dist/works.html" class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Works</a>
+                <a href="/dist/Resuem.pdf" download class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Download
+                      CV</a>
+                <a href="/dist/blog.html" class="text-white font-hairline font-normal text-xl pb-2 transition duration-700 ease-in-out border-b border-transparent hover:border-white hover:text-gray-400">Blog</a>
+            </div>
+            <div class="float-right">
+                <svg class="w-8 h-8 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                     <path d="M4 6h16M4 12h16M4 18h16"></path>
+                 </svg>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div>
+
         </div>
     </header>
     <main class="container mx-auto px-4">
         <div class="mt-32 max-w-full md:flex  md:space-x-24">
-            <div>
-                <div class="rounded overflow-hidden shadow-xs cursor-pointer">
-                    <img class="filter ml-10 sm:ml-0 transition duration-700 ease-in-out object-cover rounded shadow-xs" src="./dist/images/XvcMRV-P_400x400.jpg" alt="photo" style="width: 400px; height: 400px;">
+            <div class="w-2/6">
+                <div class="rounded  overflow-hidden flex justify-center flecursor-pointer">
+                    <img class="filter flex flex-shrink-0 ml-10 sm:ml-0 transition duration-700 ease-in-out object-cover rounded shadow-xs" src="./dist/images/XvcMRV-P_400x400.jpg" alt="photo">
                 </div>
                 <div class="mt-8 mb-10 bg-gray-900 w-10/12 ml-8 px-1 rounded flex items-center justify-center py-1 space-x-10">
                     <a href="https://github.com/sohel1999">
@@ -36,7 +48,7 @@
                 </div>
             </div>
 
-            <div class="text-white mt-10 ml-10">
+            <div class="text-white mt-10 ml-10 w-5/6">
                 <h1 class="text-5xl font-medium text-purple-700 leading-relaxed tracking-widest">Hi !!
                     <span class="font-semibold">&#44;</span></h1>
                 <p class="text-3xl mt-5 font-medium tracking-wider text-gray-300">I'm Sohel Mia <span class="inline-block">&#183;</span></p>
